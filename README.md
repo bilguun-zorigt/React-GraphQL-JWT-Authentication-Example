@@ -3,6 +3,7 @@
 - This repository is to help people new to react with setting up their authentication system.
 - in this example I'm using separate graphql-end only because I didn't want to send refresh token cookie with each request, by setting the path property of cookie.
 - this example only shows the frontend client setup (considering below safety points) and backend settings must be set considering the points below.
+- this example used @apollo/client (GraphQL client), react-redux, redux-persist, @redux/toolkit, react-scripts (create-react-app), react-router-dom
 
 
 # Safety points to consider
