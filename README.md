@@ -2,6 +2,8 @@
 React GraphQL JWT Authentication and silent Token Refresh setup
 This repository is to help people new to react with setting up their authentication system.
 
+** in this example I'm using separate graphql-end only because I didn't want to send refresh token cookie with each request, by setting the path property of cookie.
+
 
 # Safety points to consider
 
