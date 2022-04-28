@@ -34,7 +34,7 @@ export function getAccessTokenPromise() {
   const currentNumericDate = Math.round(Date.now() / 1000)
 
   if (authTokenState && authTokenState.token && authTokenState.payload && currentNumericDate + 1 * 60 <= authTokenState.payload.exp) {
-    if (currentNumericDate + 3 * 60 >= authTokenState.payload.exp) getRefreshedAccessTokenPromise()
+    //if (currentNumericDate + 3 * 60 >= authTokenState.payload.exp) getRefreshedAccessTokenPromise()
     return new Promise(resolve => resolve(authTokenState.token))
   }
 
